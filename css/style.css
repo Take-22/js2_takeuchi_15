@@ -1,0 +1,57 @@
+body{
+    margin:0;
+    padding:0;
+    text-align:left;
+    font-size: 24px;
+    width:100%;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+header{
+    background-color: #fff;
+    text-align: center;
+}
+h1{
+    margin: auto;
+    margin-top: 10px;
+    font-size: 32px;
+}
+h2{
+    font-size: 12px;
+    margin: 0 5px;
+}
+.flexbox{
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+}
+main{
+    width:100%;
+    /* 高さは要調整 */
+    height: 830px;
+    display: block;
+    position:relative;
+}
+footer{
+    background-color: #fff;
+    text-align: center;
+}
+textarea{
+    width: 300px;
+    height: 830px;
+    font-size: 50%;
+    background-color: dimgray;
+    resize: both;
+    border-color: dimgray;
+    color: dimgray;
+    transition: 0.4s;
+    padding-top: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* マウスを乗せるとテキストが見える */
+textarea:hover{
+    background-color:rgb(241, 239, 239);
+}
+textarea:focus{
+    background-color:rgb(241, 239, 239);
+}
